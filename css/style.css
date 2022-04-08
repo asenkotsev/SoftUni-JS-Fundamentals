@@ -1,0 +1,55 @@
+p {
+    color: royalblue;
+    font-size: 26px;
+}
+
+h1 {
+    color: yellowgreen;
+    text-align: center;
+}
+
+.quoted-text {
+    color: gray;
+    font-size: 18px;
+    font-style: italic;
+
+}
+
+#special-quote {
+    background-color: pink;
+}
+
+.slogan{
+    font-weight: bold;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.navigation a {
+    text-decoration: none;
+    background-color: rgb(0, 255, 157);
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 22px;
+    border-radius: 10px;
+    text-align: center;
+    color: gray;
+}
+
+.navigation a:hover {
+    background-color: transparent;
+    color: rgb(0, 255, 157);
+    border: 1px solid rgb(0, 255, 157);
+}
+
+body{
+    background-color: beige;
+    font-family: 'Open Sans', sans-serif;
+}
